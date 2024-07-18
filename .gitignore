@@ -1,6 +1,7 @@
 .bloop/
 .bsp/
 .cache
+.idea
 .history
 .lib/
 .metals/
