@@ -57,5 +57,7 @@ object ScoreStreamingKafka {
       .outputMode("complete")
       .format("console")
       .start()
+
+    query.awaitTermination()
   }
 }
